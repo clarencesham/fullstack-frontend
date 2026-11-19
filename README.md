@@ -1,5 +1,5 @@
 
-### Forum-App-React-Frontend 
+### fullstack-frontend 
 
 
 React client that consumes the API: `https://github.com/clarence/fullstack`
@@ -59,26 +59,4 @@ The frontend uses the backend's root routes and raw JSON responses. Features wit
 
 The frontend requires login and filters the posts it displays to the signed-in user. This is only a UI restriction: the backend currently serves `GET /posts` and `GET /posts/{id}` without authentication, so it must also authenticate and enforce post ownership to prevent direct API access to other users' posts.
 
-## License
 
-MIT License
-
-Copyright (c) 2026 clarencesham
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
